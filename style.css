@@ -1,0 +1,459 @@
+body{
+  min-height: 1200px;
+  background-color: #FFDFC4;
+}
+
+
+/* navbar */
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #542D21;
+  border: 0.1px solid black;
+}
+.navbar-brand{
+  color: #FFDFC4;
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  transition: all 0.3s ease;
+}
+.navbar-brand:hover{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  box-shadow: 3px 3px 5px white ;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.navbar-toggler{
+  cursor: pointer;
+}
+#navbarNav .nav-link{
+  color: white;
+}
+
+/* jumbotron */
+#jumbotron {
+  background-color: #96582B;
+  color: white;
+}
+#jumbotron h1{
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+}
+.logo{
+  box-shadow: 3px 3px 5px   #C5A76D;
+  border-radius: 50%;
+}
+
+/* menu */
+
+#menu{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;    
+  justify-content: space-between; 
+  padding: 20px;
+}
+#menu {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+}
+#nama-menu{
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+  font-size: 80px;
+  color: #542D21 ;
+}
+.card-body-back {
+  background-color:#FFDFC4 ;
+  border: 2px solid black;
+  width: 195px;
+  height: 295px;
+  perspective: 1000px;
+  border-radius: 6px;
+}
+
+.card-title1 {
+  text-shadow: 2px 2px 3px #6ab04c; /* matcha latte */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title2 {
+  text-shadow: 2px 2px 3px #3e2723; /* espresso */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title3 {
+  text-shadow: 2px 2px 3px #4e342e; /* americano */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title4 {
+  text-shadow: 2px 2px 3px #795548; /* cappuccino */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title5 {
+  text-shadow: 2px 2px 3px #a1887f; /* latte */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title6 {
+  text-shadow: 2px 2px 3px #5d4037; /* mocha */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title7 {
+  text-shadow: 2px 2px 3px #d7ccc8; /* flat white */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title8 {
+  text-shadow: 2px 2px 3px #37474f; /* iced americano */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title9 {
+  text-shadow: 2px 2px 3px #cfd8dc; /* iced latte */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title10 {
+  text-shadow: 2px 2px 3px #263238; /* cold brew */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title11 {
+  text-shadow: 2px 2px 3px #a1887f; /* chai latte */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  animation: ketikChaiLatte 3s steps(300) infinite alternate;
+}
+
+.card-title12 {
+  text-shadow: 2px 2px 3px #6d4c41; /* hot chocolate */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title13 {
+  text-shadow: 2px 2px 3px #ffb74d; /* caramel macchiato */
+  margin-top: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title14 {
+  text-shadow: 2px 2px 3px #fce4ec; /* vanilla latte */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title15 {
+  text-shadow: 2px 2px 3px #8d6e63; /* coffee frappe */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title16 {
+  text-shadow: 2px 2px 3px #f9a825; /* croissant */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title17 {
+  text-shadow: 2px 2px 3px #8e44ad; /* muffin */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title18 {
+  text-shadow: 2px 2px 3px #4e342e; /* brownies */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title19 {
+  text-shadow: 2px 2px 3px #fbc02d; /* chicken sandwich */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title20 {
+  text-shadow: 2px 2px 3px #ffe082; /* pancakes */
+  margin-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+.card-body-front {
+  background-color: #96582B;
+  width: 195px;
+  height: 100px;
+  perspective: 1000px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.kartu {
+  margin-top: 10px;
+  width: 200px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.inti-kartu {
+  transform: rotateY(0deg) rotateX(5deg);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.kartu:hover .inti-kartu {
+  transform: rotateY(180deg);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+}
+
+.depan-kartu, .belakang-kartu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: white;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+}
+
+.depan-kartu {
+  background-color: #96582B;
+  border: 2px solid black;
+}
+
+.belakang-kartu {
+  transform: rotateY(180deg);
+  background-color:#FFDFC4 ;
+  
+}
+
+
+/* pesanan */
+
+#pesanan {
+  padding: 60px 20px;
+}
+
+#pesanan h2 {
+  border: 5px solid  #542D21;
+  border-radius: 70% 5% 70% 5%;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-family: "Cherry Bomb One", system-ui;
+  font-size: 2.5rem;
+  color: #96582B;
+}
+
+#pesanan p {
+  font-style: italic;
+  color: #6D4C41;
+}
+
+#pesanan .form-control {
+  border: 2px solid #96582B;
+  border-radius: 10px;
+}
+
+#pesanan .btn-warning {
+  background-color: #96582B;
+  border: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#pesanan .btn-warning:hover {
+  background-color: #542D21;
+}
+
+#pesanan textarea.form-control {
+  resize: vertical;
+  border: 2px solid #96582B;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+
+#hasilTotal { 
+  margin-top: 15px; font-weight: bold;
+  }
+
+
+/* contact */
+#contact {
+  background-color: #FFF9C4;
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+#contact .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+#contact a {
+  display: inline-block;
+  color: #FBC02D;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px 20px;
+  border: 2px solid #FBC02D;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#contact a:hover {
+  background-color: #FBC02D;
+  color: white;
+}
+
+#contact p {
+  margin-top: 5px;
+  display: inline-block;
+  color: #FBC02D;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 3px;
+  border: 2px solid #FBC02D;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#contact p:hover {
+  background-color: #FBC02D;
+  color: white;
+}
+
+
+/* footer */
+.footer{
+  width: 100%;
+  
+}
+
+
+
