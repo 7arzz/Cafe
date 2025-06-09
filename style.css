@@ -268,6 +268,7 @@ body{
 .card-title19 {
   text-shadow: 2px 2px 3px #fbc02d; /* chicken sandwich */
   margin-top: 40px;
+  margin-bottom: 40px;
   overflow: hidden;
   white-space: nowrap;
   font-size: 30px;
