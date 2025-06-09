@@ -81,6 +81,7 @@ body{
   height: 295px;
   perspective: 1000px;
   border-radius: 6px;
+  overflow:auto;
 }
 
 .card-title1 {
