@@ -77,7 +77,6 @@ body{
 }
 .card-body-back {
   background-color:#FFDFC4 ;
-  border: 2px solid black;
   width: 195px;
   height: 295px;
   perspective: 1000px;
@@ -338,7 +337,8 @@ body{
 .belakang-kartu {
   transform: rotateY(180deg);
   background-color:#FFDFC4 ;
-  
+  overflow: auto;
+  border: none;
 }
 
 
